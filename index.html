@@ -1,0 +1,1165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Store</title>
+    <!--Bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <!--Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!--Start Navbar-->
+    <div class="header-navbar d-none d-xl-flex mb-3">
+      <div class="container d-flex flex-row gap-5 mt-3">
+        <a class="header-navbar-brand" href="#"
+          ><img src="./images/Logo.svg" alt=""
+        /></a>
+        <div
+          class="header-navbar-items gap-4 align-items-center d-none d-xl-flex"
+        >
+          <form class="d-flex" role="search">
+            <input
+              class="form-control"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button
+              title="search Button"
+              class="btn btn-outline-success search-Button"
+              type="submit"
+            >
+              <img src="./images/searchIcon.svg" alt="" />
+            </button>
+          </form>
+          <div class="header-navbar-icons d-flex">
+            <div class="header-navbar-icons__icon">
+              <img src="./images/facebook.svg" alt="" />
+            </div>
+            <div class="header-navbar-icons__icon">
+              <img src="./images/twitter.svg" alt="" />
+            </div>
+            <div class="header-navbar-icons__icon">
+              <img src="./images/instagram.svg" alt="" />
+            </div>
+            <div class="header-navbar-icons__icon">
+              <img src="./images/youtube.svg" alt="" />
+            </div>
+          </div>
+          <div class="phone-number d-flex align-items-center">
+            <div class="phone-number__icon">
+              <img src="./images/phone.svg" alt="" />
+            </div>
+            <p class="">+971 5123 4567</p>
+          </div>
+          <div class="language d-flex">
+            <div class="language__icon">
+              <img src="./images/flag.svg" alt="" />
+            </div>
+            <img src="./images/arabic.svg" alt="" />
+          </div>
+          <div class="profile-icon d-flex align-items-center">
+            <img src="./images/profile-icons.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="header-navbar-brand d-flex d-xl-none" href="#">
+          <img src="./images/logo2.png" alt="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <!-- <span class="navbar-toggler-icon"></span> -->
+          <i class="fa-solid fa-bars" style="color: #ffffff"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link text-white item" aria-current="page" href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Mobiles</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Mobile Accessories</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Tablets</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Smart Watches</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Electronics </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--End Navbar-->
+
+    <!-- Start Hero Section -->
+    <div class="hero">
+      <div class="container d-flex align-items-center flex-column flex-lg-row">
+        <div
+          class="hero-left d-flex flex-column align-items-center align-items-lg-start mt-5"
+        >
+          <p>Mobile Collection</p>
+          <p>Mobile Collection</p>
+          <a href="#" class="cta"> Shop Now </a>
+        </div>
+        <div class="hero-right">
+          <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="./images/hero_image.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./images/hero_image.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./images/hero_image.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev"
+            >
+              <i class="fa-solid fa-chevron-left"></i>
+
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next"
+            >
+              <i class="fa-solid fa-chevron-right"></i>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Hero Section -->
+    <!-- Start Categories -->
+    <div
+      style="background-color: hsla(203, 84%, 95%, 0.4)"
+      class="categories mt-5"
+    >
+      <div class="container d-flex flex-xl-row gap-3 flex-column">
+        <div class="categories-left">
+          <div class="categories-left-container">
+            <div class="image">
+              <img src="./images/phones_blue.png" alt="" />
+            </div>
+            <p>Mobile</p>
+          </div>
+        </div>
+        <div class="categories-right d-flex flex-column gap-3">
+          <div
+            class="categories-right__upper d-flex flex-column flex-lg-row align-items-center justify-content-center p-4"
+          >
+            <p>Mobile Accessories</p>
+            <div class="image">
+              <img src="./images/earpods1.png" alt="" />
+            </div>
+            <div class="image">
+              <img src="./images/earpods2.png" alt="" />
+            </div>
+          </div>
+          <div
+            class="categories-right__lower d-flex flex-column flex-lg-row align-items-center p-4"
+          >
+            <p>Electronics</p>
+            <div class="images-container d-flex flex-column flex-lg-row">
+              <div class="image">
+                <img src="./images/goldiphone1.png" alt="" />
+              </div>
+              <div class="image">
+                <img src="./images/goldiphone2.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Start Mobile collections -->
+      <div
+        style="background-color: hsla(203, 84%, 95%, 0.4)"
+        class="mobile-collections"
+      >
+        <div class="container p-3">
+          <h2 class="my-5">MOBILE COLLECTIONS</h2>
+          <div class="row gap-4">
+            <div
+              class="col-12 col-md-2 p-3 d-flex flex-column gap-4 bg-white item"
+            >
+              <div class="heart-icon d-flex justify-content-end mt-2">
+                <i class="fa-regular fa-heart fa-lg" style="color: #f16027"></i>
+              </div>
+              <div class="image d-flex justify-content-center">
+                <img src="./images/Rectangle 52-1.png" alt="" />
+              </div>
+              <div class="content d-flex flex-column justify-content-center">
+                <h5>MOBILE</h5>
+                <p>Apple iPhone 11 Pro Max - 256GB, 4G LTE, Gold</p>
+                <div class="icons text-center">
+                  <span>AED <span class="new-price">3999</span></span>
+                  <span>AED <span>4500</span></span>
+                  <span>
+                    <i
+                      class="fa-solid fa-cart-shopping fa-lg"
+                      style="color: #1176ac"
+                    ></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-12 col-md-2 p-3 d-flex flex-column gap-4 bg-white item"
+            >
+              <div class="heart-icon d-flex justify-content-end mt-2">
+                <i class="fa-regular fa-heart fa-lg" style="color: #f16027"></i>
+              </div>
+              <div class="image d-flex justify-content-center">
+                <img src="./images/Rectangle 52-2.png" alt="" />
+              </div>
+              <div class="content d-flex flex-column justify-content-center">
+                <h5>MOBILE</h5>
+                <p>Apple iPhone 11 Pro Max - 256GB, 4G LTE, Gold</p>
+                <div class="icons text-center">
+                  <span>AED <span class="new-price">3999</span></span>
+                  <span>AED <span>4500</span></span>
+                  <span>
+                    <i
+                      class="fa-solid fa-cart-shopping fa-lg"
+                      style="color: #1176ac"
+                    ></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-12 col-md-2 p-3 d-flex flex-column gap-4 bg-white item"
+            >
+              <div class="heart-icon d-flex justify-content-end mt-2">
+                <i class="fa-regular fa-heart fa-lg" style="color: #f16027"></i>
+              </div>
+              <div class="image d-flex justify-content-center">
+                <img src="./images/Rectangle 52.png" alt="" />
+              </div>
+              <div class="content d-flex flex-column justify-content-center">
+                <h5>MOBILE</h5>
+                <p>Apple iPhone 11 Pro Max - 256GB, 4G LTE, Gold</p>
+                <div class="icons text-center">
+                  <span>AED <span class="new-price">3999</span></span>
+                  <span>AED <span>4500</span></span>
+                  <span>
+                    <i
+                      class="fa-solid fa-cart-shopping fa-lg"
+                      style="color: #1176ac"
+                    ></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-12 col-md-2 p-3 d-flex flex-column gap-4 bg-white item"
+            >
+              <div class="heart-icon d-flex justify-content-end mt-2">
+                <i class="fa-regular fa-heart fa-lg" style="color: #f16027"></i>
+              </div>
+              <div class="image d-flex justify-content-center">
+                <img src="./images/Rectangle 52-2.png" alt="" />
+              </div>
+              <div class="content d-flex flex-column justify-content-center">
+                <h5>MOBILE</h5>
+                <p>Apple iPhone 11 Pro Max - 256GB, 4G LTE, Gold</p>
+                <div class="icons text-center">
+                  <span>AED <span class="new-price">3999</span></span>
+                  <span>AED <span>4500</span></span>
+                  <span>
+                    <i
+                      class="fa-solid fa-cart-shopping fa-lg"
+                      style="color: #1176ac"
+                    ></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-12 col-md-2 p-3 d-flex flex-column gap-4 bg-white item"
+            >
+              <div class="heart-icon d-flex justify-content-end mt-2">
+                <i class="fa-regular fa-heart fa-lg" style="color: #f16027"></i>
+              </div>
+              <div class="image d-flex justify-content-center">
+                <img src="./images/Rectangle 52.png" alt="" />
+              </div>
+              <div class="content d-flex flex-column justify-content-center">
+                <h5>MOBILE</h5>
+                <p>Apple iPhone 11 Pro Max - 256GB, 4G LTE, Gold</p>
+                <div class="icons text-center">
+                  <span>AED <span class="new-price">3999</span></span>
+                  <span>AED <span>4500</span></span>
+                  <span>
+                    <i
+                      class="fa-solid fa-cart-shopping fa-lg"
+                      style="color: #1176ac"
+                    ></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-12 col-md-2 p-3 d-flex flex-column gap-4 bg-white item"
+            >
+              <div class="heart-icon d-flex justify-content-end mt-2">
+                <i class="fa-regular fa-heart fa-lg" style="color: #f16027"></i>
+              </div>
+              <div class="image d-flex justify-content-center">
+                <img src="./images/Rectangle 52-1.png" alt="" />
+              </div>
+              <div class="content d-flex flex-column justify-content-center">
+                <h5>MOBILE</h5>
+                <p>Apple iPhone 11 Pro Max - 256GB, 4G LTE, Gold</p>
+                <div class="icons text-center">
+                  <span>AED <span class="new-price">3999</span></span>
+                  <span>AED <span>4500</span></span>
+                  <span>
+                    <i
+                      class="fa-solid fa-cart-shopping fa-lg"
+                      style="color: #1176ac"
+                    ></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-12 col-md-2 p-3 d-flex flex-column gap-4 bg-white item"
+            >
+              <div class="heart-icon d-flex justify-content-end mt-2">
+                <i class="fa-regular fa-heart fa-lg" style="color: #f16027"></i>
+              </div>
+              <div class="image d-flex justify-content-center">
+                <img src="./images/Rectangle 52-2.png" alt="" />
+              </div>
+              <div class="content d-flex flex-column justify-content-center">
+                <h5>MOBILE</h5>
+                <p>Apple iPhone 11 Pro Max - 256GB, 4G LTE, Gold</p>
+                <div class="icons text-center">
+                  <span>AED <span class="new-price">3999</span></span>
+                  <span>AED <span>4500</span></span>
+                  <span>
+                    <i
+                      class="fa-solid fa-cart-shopping fa-lg"
+                      style="color: #1176ac"
+                    ></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-12 col-md-2 p-3 d-flex flex-column gap-4 bg-white item"
+            >
+              <div class="heart-icon d-flex justify-content-end mt-2">
+                <i class="fa-regular fa-heart fa-lg" style="color: #f16027"></i>
+              </div>
+              <div class="image d-flex justify-content-center">
+                <img src="./images/Rectangle 52.png" alt="" />
+              </div>
+              <div class="content d-flex flex-column justify-content-center">
+                <h5>MOBILE</h5>
+                <p>Apple iPhone 11 Pro Max - 256GB, 4G LTE, Gold</p>
+                <div class="icons text-center">
+                  <span>AED <span class="new-price">3999</span></span>
+                  <span>AED <span>4500</span></span>
+                  <span>
+                    <i
+                      class="fa-solid fa-cart-shopping fa-lg"
+                      style="color: #1176ac"
+                    ></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-12 col-md-2 p-3 d-flex flex-column gap-4 bg-white item"
+            >
+              <div class="heart-icon d-flex justify-content-end mt-2">
+                <i class="fa-regular fa-heart fa-lg" style="color: #f16027"></i>
+              </div>
+              <div class="image d-flex justify-content-center">
+                <img src="./images/Rectangle 52-1.png" alt="" />
+              </div>
+              <div class="content d-flex flex-column justify-content-center">
+                <h5>MOBILE</h5>
+                <p>Apple iPhone 11 Pro Max - 256GB, 4G LTE, Gold</p>
+                <div class="icons text-center">
+                  <span>AED <span class="new-price">3999</span></span>
+                  <span>AED <span>4500</span></span>
+                  <span>
+                    <i
+                      class="fa-solid fa-cart-shopping fa-lg"
+                      style="color: #1176ac"
+                    ></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-12 col-md-2 p-3 d-flex flex-column gap-4 bg-white item align-items-center"
+            >
+              <div class="heart-icon d-flex justify-content-end mt-2">
+                <i class="fa-regular fa-heart fa-lg" style="color: #f16027"></i>
+              </div>
+              <div class="image d-flex justify-content-center">
+                <img src="./images/Rectangle 52-1.png" alt="" />
+              </div>
+              <div class="content d-flex flex-column justify-content-center">
+                <h5>MOBILE</h5>
+                <p>Apple iPhone 11 Pro Max - 256GB, 4G LTE, Gold</p>
+                <div class="icons text-center">
+                  <span>AED <span class="new-price">3999</span></span>
+                  <span>AED <span>4500</span></span>
+                  <span>
+                    <i
+                      class="fa-solid fa-cart-shopping fa-lg"
+                      style="color: #1176ac"
+                    ></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="ctaDiv d-flex justify-content-center my-5">
+            <a href="#" class="cta">More products</a>
+          </div>
+        </div>
+      </div>
+      <!-- End Mobile collections -->
+    </div>
+    <!-- End Categories -->
+    <!-- Start Mobile Accessories -->
+    <div class="mobile-accessories mt-5 p-4">
+      <div
+        class="container d-flex align-items-center justify-content-between flex-column flex-lg-row"
+      >
+        <h2>MOBILE ACCESSORIES</h2>
+        <div class="image my-5">
+          <img src="./images/mobile_accessories.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- End Mobile Accessories -->
+    <!-- Start Mobile Accessories grid -->
+    <div
+      style="background-color: hsla(203, 84%, 95%, 0.4)"
+      class="categories mt-5"
+    >
+      <!-- Start Mobile collections -->
+      <div
+        style="background-color: hsla(203, 84%, 95%, 0.4)"
+        class="mobile-collections my-5"
+      >
+        <div class="container p-3">
+          <h2 class="my-5">MOBILE ACCESSORIES</h2>
+          <div class="row gap-2">
+            <div
+              class="col-12 col-md-2 p-3 d-flex flex-column gap-4 bg-white item"
+            >
+              <div class="heart-icon d-flex justify-content-end mt-2">
+                <i class="fa-regular fa-heart fa-lg" style="color: #f16027"></i>
+              </div>
+              <div class="image d-flex justify-content-center">
+                <img src="./images/New folder/Rectangle 52-1.png" alt="" />
+              </div>
+              <div class="content d-flex flex-column justify-content-center">
+                <h5>MOBILE</h5>
+                <p>Apple iPhone 11 Pro Max - 256GB, 4G LTE, Gold</p>
+                <div class="icons text-center">
+                  <span>AED <span class="new-price">3999</span></span>
+                  <span>AED <span>4500</span></span>
+                  <span>
+                    <i
+                      class="fa-solid fa-cart-shopping fa-lg"
+                      style="color: #1176ac"
+                    ></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-12 col-md-2 p-3 d-flex flex-column gap-4 bg-white item"
+            >
+              <div class="heart-icon d-flex justify-content-end mt-2">
+                <i class="fa-regular fa-heart fa-lg" style="color: #f16027"></i>
+              </div>
+              <div class="image d-flex justify-content-center">
+                <img src="./images/New folder/Rectangle 52-2.png" alt="" />
+              </div>
+              <div class="content d-flex flex-column justify-content-center">
+                <h5>MOBILE</h5>
+                <p>Apple iPhone 11 Pro Max - 256GB, 4G LTE, Gold</p>
+                <div class="icons text-center">
+                  <span>AED <span class="new-price">3999</span></span>
+                  <span>AED <span>4500</span></span>
+                  <span>
+                    <i
+                      class="fa-solid fa-cart-shopping fa-lg"
+                      style="color: #1176ac"
+                    ></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-12 col-md-2 p-3 d-flex flex-column gap-4 bg-white item"
+            >
+              <div class="heart-icon d-flex justify-content-end mt-2">
+                <i class="fa-regular fa-heart fa-lg" style="color: #f16027"></i>
+              </div>
+              <div class="image d-flex justify-content-center">
+                <img src="./images/New folder/Rectangle 52-3.png" alt="" />
+              </div>
+              <div class="content d-flex flex-column justify-content-center">
+                <h5>MOBILE</h5>
+                <p>Apple iPhone 11 Pro Max - 256GB, 4G LTE, Gold</p>
+                <div class="icons text-center">
+                  <span>AED <span class="new-price">3999</span></span>
+                  <span>AED <span>4500</span></span>
+                  <span>
+                    <i
+                      class="fa-solid fa-cart-shopping fa-lg"
+                      style="color: #1176ac"
+                    ></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-12 col-md-2 p-3 d-flex flex-column gap-4 bg-white item"
+            >
+              <div class="heart-icon d-flex justify-content-end mt-2">
+                <i class="fa-regular fa-heart fa-lg" style="color: #f16027"></i>
+              </div>
+              <div class="image d-flex justify-content-center">
+                <img src="./images/New folder/Rectangle 52-4.png" alt="" />
+              </div>
+              <div class="content d-flex flex-column justify-content-center">
+                <h5>MOBILE</h5>
+                <p>Apple iPhone 11 Pro Max - 256GB, 4G LTE, Gold</p>
+                <div class="icons text-center">
+                  <span>AED <span class="new-price">3999</span></span>
+                  <span>AED <span>4500</span></span>
+                  <span>
+                    <i
+                      class="fa-solid fa-cart-shopping fa-lg"
+                      style="color: #1176ac"
+                    ></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-12 col-md-2 p-3 d-flex flex-column gap-4 bg-white item"
+            >
+              <div class="heart-icon d-flex justify-content-end mt-2">
+                <i class="fa-regular fa-heart fa-lg" style="color: #f16027"></i>
+              </div>
+              <div class="image d-flex justify-content-center">
+                <img src="./images/New folder/Rectangle 52-6.png" alt="" />
+              </div>
+              <div class="content d-flex flex-column justify-content-center">
+                <h5>MOBILE</h5>
+                <p>Apple iPhone 11 Pro Max - 256GB, 4G LTE, Gold</p>
+                <div class="icons text-center">
+                  <span>AED <span class="new-price">3999</span></span>
+                  <span>AED <span>4500</span></span>
+                  <span>
+                    <i
+                      class="fa-solid fa-cart-shopping fa-lg"
+                      style="color: #1176ac"
+                    ></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-12 col-md-2 p-3 d-flex flex-column gap-4 bg-white item"
+            >
+              <div class="heart-icon d-flex justify-content-end mt-2">
+                <i class="fa-regular fa-heart fa-lg" style="color: #f16027"></i>
+              </div>
+              <div class="image d-flex justify-content-center">
+                <img src="./images/New folder/Rectangle 52-5.png" alt="" />
+              </div>
+              <div class="content d-flex flex-column justify-content-center">
+                <h5>MOBILE</h5>
+                <p>Apple iPhone 11 Pro Max - 256GB, 4G LTE, Gold</p>
+                <div class="icons text-center">
+                  <span>AED <span class="new-price">3999</span></span>
+                  <span>AED <span>4500</span></span>
+                  <span>
+                    <i
+                      class="fa-solid fa-cart-shopping fa-lg"
+                      style="color: #1176ac"
+                    ></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-12 col-md-2 p-3 d-flex flex-column gap-4 bg-white item"
+            >
+              <div class="heart-icon d-flex justify-content-end mt-2">
+                <i class="fa-regular fa-heart fa-lg" style="color: #f16027"></i>
+              </div>
+              <div class="image d-flex justify-content-center">
+                <img src="./images/New folder/Rectangle 52-7.png" alt="" />
+              </div>
+              <div class="content d-flex flex-column justify-content-center">
+                <h5>MOBILE</h5>
+                <p>Apple iPhone 11 Pro Max - 256GB, 4G LTE, Gold</p>
+                <div class="icons text-center">
+                  <span>AED <span class="new-price">3999</span></span>
+                  <span>AED <span>4500</span></span>
+                  <span>
+                    <i
+                      class="fa-solid fa-cart-shopping fa-lg"
+                      style="color: #1176ac"
+                    ></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-12 col-md-2 p-3 d-flex flex-column gap-4 bg-white item"
+            >
+              <div class="heart-icon d-flex justify-content-end mt-2">
+                <i class="fa-regular fa-heart fa-lg" style="color: #f16027"></i>
+              </div>
+              <div class="image d-flex justify-content-center">
+                <img src="./images/New folder/Rectangle 52-8.png" alt="" />
+              </div>
+              <div class="content d-flex flex-column justify-content-center">
+                <h5>MOBILE</h5>
+                <p>Apple iPhone 11 Pro Max - 256GB, 4G LTE, Gold</p>
+                <div class="icons text-center">
+                  <span>AED <span class="new-price">3999</span></span>
+                  <span>AED <span>4500</span></span>
+                  <span>
+                    <i
+                      class="fa-solid fa-cart-shopping fa-lg"
+                      style="color: #1176ac"
+                    ></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-12 col-md-2 p-3 d-flex flex-column gap-4 bg-white item"
+            >
+              <div class="heart-icon d-flex justify-content-end mt-2">
+                <i class="fa-regular fa-heart fa-lg" style="color: #f16027"></i>
+              </div>
+              <div class="image d-flex justify-content-center">
+                <img src="./images/New folder/Rectangle 52-9.png" alt="" />
+              </div>
+              <div class="content d-flex flex-column justify-content-center">
+                <h5>MOBILE</h5>
+                <p>Apple iPhone 11 Pro Max - 256GB, 4G LTE, Gold</p>
+                <div class="icons text-center">
+                  <span>AED <span class="new-price">3999</span></span>
+                  <span>AED <span>4500</span></span>
+                  <span>
+                    <i
+                      class="fa-solid fa-cart-shopping fa-lg"
+                      style="color: #1176ac"
+                    ></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-12 col-md-2 p-3 d-flex flex-column gap-4 bg-white item align-items-center"
+            >
+              <div class="heart-icon d-flex justify-content-end mt-2">
+                <i class="fa-regular fa-heart fa-lg" style="color: #f16027"></i>
+              </div>
+              <div class="image">
+                <img src="./images/New folder/Rectangle 52-1.png" alt="" />
+              </div>
+              <div class="content d-flex flex-column justify-content-center">
+                <h5>MOBILE</h5>
+                <p>Apple iPhone 11 Pro Max - 256GB, 4G LTE, Gold</p>
+                <div class="icons text-center">
+                  <span>AED <span class="new-price">3999</span></span>
+                  <span>AED <span>4500</span></span>
+                  <span>
+                    <i
+                      class="fa-solid fa-cart-shopping fa-lg"
+                      style="color: #1176ac"
+                    ></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="ctaDiv d-flex justify-content-center my-5">
+            <a href="#" class="cta">More products</a>
+          </div>
+        </div>
+      </div>
+      <!-- End Mobile collections -->
+    </div>
+    <!-- End Mobile Accessories grid -->
+
+    <!-- Start Mobile Accessories -->
+    <div class="electronics mt-5 p-4">
+      <div
+        class="container d-flex align-items-center justify-content-between flex-column flex-xl-row"
+      >
+        <h2>ELECTRONICS</h2>
+        <div class="image">
+          <img src="./images/iphone-12-tim-8.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- End Mobile Accessories -->
+
+    <div
+      style="background-color: hsla(203, 84%, 95%, 0.4)"
+      class="categories mt-5"
+    >
+      <!-- Start Mobile collections -->
+      <div
+        style="background-color: hsla(203, 84%, 95%, 0.4)"
+        class="mobile-collections"
+      >
+        <div class="container p-3">
+          <h2 class="my-5">ELECTRONICS</h2>
+          <div class="row gap-4">
+            <div
+              class="col-12 col-md-2 p-3 d-flex flex-column gap-4 bg-white item"
+            >
+              <div class="heart-icon d-flex justify-content-end mt-2">
+                <i class="fa-regular fa-heart fa-lg" style="color: #f16027"></i>
+              </div>
+              <div class="image d-flex justify-content-center">
+                <img src="./images/Rectangle 52-1.png" alt="" />
+              </div>
+              <div class="content d-flex flex-column justify-content-center">
+                <h5>MOBILE</h5>
+                <p>Apple iPhone 11 Pro Max - 256GB, 4G LTE, Gold</p>
+                <div class="icons text-center">
+                  <span>AED <span class="new-price">3999</span></span>
+                  <span>AED <span>4500</span></span>
+                  <span>
+                    <i
+                      class="fa-solid fa-cart-shopping fa-lg"
+                      style="color: #1176ac"
+                    ></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-12 col-md-2 p-3 d-flex flex-column gap-4 bg-white item"
+            >
+              <div class="heart-icon d-flex justify-content-end mt-2">
+                <i class="fa-regular fa-heart fa-lg" style="color: #f16027"></i>
+              </div>
+              <div class="image d-flex justify-content-center">
+                <img src="./images/Rectangle 52-2.png" alt="" />
+              </div>
+              <div class="content d-flex flex-column justify-content-center">
+                <h5>MOBILE</h5>
+                <p>Apple iPhone 11 Pro Max - 256GB, 4G LTE, Gold</p>
+                <div class="icons text-center">
+                  <span>AED <span class="new-price">3999</span></span>
+                  <span>AED <span>4500</span></span>
+                  <span>
+                    <i
+                      class="fa-solid fa-cart-shopping fa-lg"
+                      style="color: #1176ac"
+                    ></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-12 col-md-2 p-3 d-flex flex-column gap-4 bg-white item"
+            >
+              <div class="heart-icon d-flex justify-content-end mt-2">
+                <i class="fa-regular fa-heart fa-lg" style="color: #f16027"></i>
+              </div>
+              <div class="image d-flex justify-content-center">
+                <img src="./images/Rectangle 52.png" alt="" />
+              </div>
+              <div class="content d-flex flex-column justify-content-center">
+                <h5>MOBILE</h5>
+                <p>Apple iPhone 11 Pro Max - 256GB, 4G LTE, Gold</p>
+                <div class="icons text-center">
+                  <span>AED <span class="new-price">3999</span></span>
+                  <span>AED <span>4500</span></span>
+                  <span>
+                    <i
+                      class="fa-solid fa-cart-shopping fa-lg"
+                      style="color: #1176ac"
+                    ></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-12 col-md-2 p-3 d-flex flex-column gap-4 bg-white item"
+            >
+              <div class="heart-icon d-flex justify-content-end mt-2">
+                <i class="fa-regular fa-heart fa-lg" style="color: #f16027"></i>
+              </div>
+              <div class="image d-flex justify-content-center">
+                <img src="./images/Rectangle 52-2.png" alt="" />
+              </div>
+              <div class="content d-flex flex-column justify-content-center">
+                <h5>MOBILE</h5>
+                <p>Apple iPhone 11 Pro Max - 256GB, 4G LTE, Gold</p>
+                <div class="icons text-center">
+                  <span>AED <span class="new-price">3999</span></span>
+                  <span>AED <span>4500</span></span>
+                  <span>
+                    <i
+                      class="fa-solid fa-cart-shopping fa-lg"
+                      style="color: #1176ac"
+                    ></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-12 col-md-2 p-3 d-flex flex-column gap-4 bg-white item"
+            >
+              <div class="heart-icon d-flex justify-content-end mt-2">
+                <i class="fa-regular fa-heart fa-lg" style="color: #f16027"></i>
+              </div>
+              <div class="image d-flex justify-content-center">
+                <img src="./images/Rectangle 52.png" alt="" />
+              </div>
+              <div class="content d-flex flex-column justify-content-center">
+                <h5>MOBILE</h5>
+                <p>Apple iPhone 11 Pro Max - 256GB, 4G LTE, Gold</p>
+                <div class="icons text-center">
+                  <span>AED <span class="new-price">3999</span></span>
+                  <span>AED <span>4500</span></span>
+                  <span>
+                    <i
+                      class="fa-solid fa-cart-shopping fa-lg"
+                      style="color: #1176ac"
+                    ></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-12 col-md-2 p-3 d-flex flex-column gap-4 bg-white item"
+            >
+              <div class="heart-icon d-flex justify-content-end mt-2">
+                <i class="fa-regular fa-heart fa-lg" style="color: #f16027"></i>
+              </div>
+              <div class="image d-flex justify-content-center">
+                <img src="./images/Rectangle 52-1.png" alt="" />
+              </div>
+              <div class="content d-flex flex-column justify-content-center">
+                <h5>MOBILE</h5>
+                <p>Apple iPhone 11 Pro Max - 256GB, 4G LTE, Gold</p>
+                <div class="icons text-center">
+                  <span>AED <span class="new-price">3999</span></span>
+                  <span>AED <span>4500</span></span>
+                  <span>
+                    <i
+                      class="fa-solid fa-cart-shopping fa-lg"
+                      style="color: #1176ac"
+                    ></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-12 col-md-2 p-3 d-flex flex-column gap-4 bg-white item"
+            >
+              <div class="heart-icon d-flex justify-content-end mt-2">
+                <i class="fa-regular fa-heart fa-lg" style="color: #f16027"></i>
+              </div>
+              <div class="image d-flex justify-content-center">
+                <img src="./images/Rectangle 52-2.png" alt="" />
+              </div>
+              <div class="content d-flex flex-column justify-content-center">
+                <h5>MOBILE</h5>
+                <p>Apple iPhone 11 Pro Max - 256GB, 4G LTE, Gold</p>
+                <div class="icons text-center">
+                  <span>AED <span class="new-price">3999</span></span>
+                  <span>AED <span>4500</span></span>
+                  <span>
+                    <i
+                      class="fa-solid fa-cart-shopping fa-lg"
+                      style="color: #1176ac"
+                    ></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-12 col-md-2 p-3 d-flex flex-column gap-4 bg-white item"
+            >
+              <div class="heart-icon d-flex justify-content-end mt-2">
+                <i class="fa-regular fa-heart fa-lg" style="color: #f16027"></i>
+              </div>
+              <div class="image d-flex justify-content-center">
+                <img src="./images/Rectangle 52.png" alt="" />
+              </div>
+              <div class="content d-flex flex-column justify-content-center">
+                <h5>MOBILE</h5>
+                <p>Apple iPhone 11 Pro Max - 256GB, 4G LTE, Gold</p>
+                <div class="icons text-center">
+                  <span>AED <span class="new-price">3999</span></span>
+                  <span>AED <span>4500</span></span>
+                  <span>
+                    <i
+                      class="fa-solid fa-cart-shopping fa-lg"
+                      style="color: #1176ac"
+                    ></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-12 col-md-2 p-3 d-flex flex-column gap-4 bg-white item"
+            >
+              <div class="heart-icon d-flex justify-content-end mt-2">
+                <i class="fa-regular fa-heart fa-lg" style="color: #f16027"></i>
+              </div>
+              <div class="image d-flex justify-content-center">
+                <img src="./images/Rectangle 52-1.png" alt="" />
+              </div>
+              <div class="content d-flex flex-column justify-content-center">
+                <h5>MOBILE</h5>
+                <p>Apple iPhone 11 Pro Max - 256GB, 4G LTE, Gold</p>
+                <div class="icons text-center">
+                  <span>AED <span class="new-price">3999</span></span>
+                  <span>AED <span>4500</span></span>
+                  <span>
+                    <i
+                      class="fa-solid fa-cart-shopping fa-lg"
+                      style="color: #1176ac"
+                    ></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-12 col-md-2 p-3 d-flex flex-column gap-4 bg-white item align-items-center"
+            >
+              <div class="heart-icon d-flex justify-content-end mt-2">
+                <i class="fa-regular fa-heart fa-lg" style="color: #f16027"></i>
+              </div>
+              <div class="image d-flex justify-content-center">
+                <img src="./images/Rectangle 52-1.png" alt="" />
+              </div>
+              <div class="content d-flex flex-column justify-content-center">
+                <h5>MOBILE</h5>
+                <p>Apple iPhone 11 Pro Max - 256GB, 4G LTE, Gold</p>
+                <div class="icons text-center">
+                  <span>AED <span class="new-price">3999</span></span>
+                  <span>AED <span>4500</span></span>
+                  <span>
+                    <i
+                      class="fa-solid fa-cart-shopping fa-lg"
+                      style="color: #1176ac"
+                    ></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="ctaDiv d-flex justify-content-center my-5">
+            <a href="#" class="cta">More products</a>
+          </div>
+        </div>
+      </div>
+      <!-- End Mobile collections -->
+    </div>
+
+    <div class="offers mt-5">
+      <div
+        class="container p-4 d-flex justify-content-between flex-column flex-lg-row"
+      >
+        <div class="offer-item d-flex gap-4">
+          <div
+            class="offer-icon d-flex justify-content-center align-items-center p-2"
+          >
+            <i class="fa-solid fa-medal fa-xl" style="color: #ffffff"></i>
+          </div>
+          <div class="offer-content">
+            <p>GRADED BY PROFESSIONALS</p>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and
+              typesetting...
+            </p>
+          </div>
+        </div>
+        <div class="offer-item d-flex gap-4">
+          <div
+            class="offer-icon d-flex justify-content-center align-items-center p-2"
+          >
+            <img src="./images/cash.svg" alt="" />
+          </div>
+          <div class="offer-content">
+            <p>THE LOWEST PRICE GUARANTEED</p>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and
+              typesetting...
+            </p>
+          </div>
+        </div>
+        <div class="offer-item d-flex gap-4">
+          <div
+            class="offer-icon d-flex justify-content-center align-items-center p-2"
+          >
+            <img src="./images/offers.svg" alt="" />
+          </div>
+          <div class="offer-content">
+            <p>OFFERS</p>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and
+              typesetting...
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="">
+      <div class="container d-flex flex-column flex-xl-row justify-content-between align-items-xl-center py-4">
+        <div class="footer-item d-flex flex-column gap-3 my-5">
+          <div class="logo">
+            <img src="./images/logo2.png" alt="" />
+          </div>
+          <div class="footer-icons d-flex gap-2">
+            <div class="footer-icons__icon">
+              <img src="./images/Vector.svg" alt="" />
+            </div>
+            <div class="footer-icons__icon">
+              <img src="./images/tw.svg" alt="" />
+            </div>
+            <div class="footer-icons__icon">
+              <img src="./images/face.svg" alt="" />
+            </div>
+            <div class="footer-icons__icon">
+              <img src="./images/instagram2 1.svg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="footer-item">
+          <h5>home</h5>
+          <p>home</p>
+          <p>about us</p>
+          <p>Contact us</p>
+        </div>
+        <div class="footer-item">
+          <h5>products</h5>
+          <p>mobile</p>
+          <p>Mobile Accessories</p>
+          <p>Electronics </p>
+        </div>
+        <div class="footer-item">
+          <h5>Customer services</h5>
+          <p>home</p>
+          <p>FAQs</p>
+          <p>Terms & conditions</p>
+        </div>
+        <div class="footer-item">
+          <p>Privacy policy</p>
+          <p>Delivery policy</p>
+          <p>Refund policy </p>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
